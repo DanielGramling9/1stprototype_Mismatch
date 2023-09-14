@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 26355469}
   - component: {fileID: 26355468}
   m_Layer: 0
-  m_Name: Left_leg (1)
+  m_Name: Right_Leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,7 +438,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 79432122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1574476267}
+        m_TargetAssemblyTypeName: Parts_buttons, Assembly-CSharp
+        m_MethodName: RightArm_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &79432122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,7 +572,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 107230323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1574476267}
+        m_TargetAssemblyTypeName: Parts_buttons, Assembly-CSharp
+        m_MethodName: HeadSwap_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &107230323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,7 +1417,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415352451}
   m_LocalRotation: {x: -0, y: 0.72975624, z: -0, w: 0.6837074}
-  m_LocalPosition: {x: -5.2, y: 7.53, z: -6.2}
+  m_LocalPosition: {x: -5.200001, y: 7.529999, z: -6.2}
   m_LocalScale: {x: 10, y: 8.6363, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1641,7 +1665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 684407731}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1574476267}
+        m_TargetAssemblyTypeName: Parts_buttons, Assembly-CSharp
+        m_MethodName: RightLeg_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &684407731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2516,6 +2552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574476266}
   - component: {fileID: 1574476265}
+  - component: {fileID: 1574476267}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -2553,6 +2590,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574476267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574476264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8c6b9d52b8e2f4d8a7feb3afd8dc11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Robot_Head: {fileID: 397443284}
+  Robot_LeftArm: {fileID: 384763719}
+  Robot_RightArm: {fileID: 1229003562}
+  Robot_Body: {fileID: 415352455}
+  Robot_RightLeg: {fileID: 26355467}
+  Robot_LeftLeg: {fileID: 1191858454}
 --- !u!1 &1786925514
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,7 +2934,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1836244095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1574476267}
+        m_TargetAssemblyTypeName: Parts_buttons, Assembly-CSharp
+        m_MethodName: LeftArm_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1836244095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3354,7 +3421,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2060559137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1574476267}
+        m_TargetAssemblyTypeName: Parts_buttons, Assembly-CSharp
+        m_MethodName: LeftLeg_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2060559137
 MonoBehaviour:
   m_ObjectHideFlags: 0
